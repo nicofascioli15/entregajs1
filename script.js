@@ -13,7 +13,7 @@ function saludar() {
 
 function addToCart (){
 do{
-    articulo = prompt("¿Que articulo queres agregar a tu carrito? tabla de surf, traje de neopreno o parafina")
+    articulo = prompt("¿Que articulo queres agregar a tu carrito? tabla de surf, traje de neopreno o parafina").toLowerCase()
 } while (articulo != "tabla de surf" && articulo !="traje de neopreno" && articulo != "parafina") 
 return articulo; 
 }
